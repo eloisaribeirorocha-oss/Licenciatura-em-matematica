@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Site da Feira de Profissões — Desenvolvedor(a) de Software" />
+  <title>Feira de Profissões | Desenvolvedor(a) de Software</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="#home" class="logo">💻 Dev<span>Profissão</span></a>
+      <nav aria-label="Menu principal">
+        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+        <ul class="nav-list">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#historia">História</a></li>
+          <li><a href="#mercado">Mercado</a></li>
+          <li><a href="#creditos">Créditos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+
+    <!-- SEÇÃO 1: APRESENTAÇÃO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Desenvolvedor(a) de Software</h1>
+          <p class="slogan">"Transformando ideias em linhas de código que movem o mundo."</p>
+          <p>
+            O desenvolvedor de software é o profissional responsável por projetar,
+            codificar, testar e manter sistemas, aplicativos e sites. Sua rotina
+            envolve resolução de problemas, trabalho em equipe e aprendizado contínuo
+            de novas tecnologias.
+          </p>
+          <a href="#historia" class="btn">Conheça a história →</a>
+        </div>
+        <figure class="hero-img">
+          <img src="img/hero.jpg" alt="Desenvolvedor trabalhando em múltiplos monitores com código" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2: HISTÓRIA -->
+    <section id="historia" class="section historia">
+      <div class="container">
+        <h2>📜 Fatos Históricos</h2>
+        <p class="section-sub">Da origem da programação aos dias atuais.</p>
+
+        <div class="historia-grid">
+          <article class="card-historia">
+            <h3>1843 — A primeira programadora</h3>
+            <p>Ada Lovelace escreveu o primeiro algoritmo destinado a ser processado por uma máquina (a Máquina Analítica de Babbage).</p>
+          </article>
+          <article class="card-historia">
+            <h3>1940–1950 — Computadores e linguagens</h3>
+            <p>Surgem os primeiros computadores eletrônicos (ENIAC) e linguagens como FORTRAN e COBOL, popularizando a programação.</p>
+          </article>
+          <article class="card-historia">
+            <h3>1991 — Nasce a World Wide Web</h3>
+            <p>Tim Berners-Lee cria a Web, abrindo espaço para o desenvolvimento de sites e aplicações web.</p>
+          </article>
+          <article class="card-historia">
+            <h3>2000s — Era mobile e open source</h3>
+            <p>Smartphones, apps e comunidades open source transformam o mercado de desenvolvimento.</p>
+          </article>
+          <article class="card-historia">
+            <h3>2010s — Cloud e DevOps</h3>
+            <p>Computação em nuvem e automação mudam o jeito de construir e entregar software.</p>
+          </article>
+          <article class="card-historia">
+            <h3>2020s — IA e desenvolvimento</h3>
+            <p>Ferramentas de IA aceleram o trabalho do programador, exigindo novas habilidades.</p>
+          </article>
+        </div>
+
+        <figure class="historia-img">
+          <img src="img/historia.jpg" alt="Imagem histórica sobre evolução da computação" loading="lazy" />
+          <figcaption>Evolução da programação ao longo das décadas.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3: MERCADO -->
+    <section id="mercado" class="section mercado">
+      <div class="container">
+        <h2>📊 Panorama Atual e Mercado</h2>
+        <p class="section-sub">Dados, salários e áreas de atuação.</p>
+
+        <!-- Cards de dados -->
+        <div class="cards-dados">
+          <article class="card-dado">
+            <span class="numero">R$ 5.500</span>
+            <p>Salário inicial médio (júnior) no Brasil</p>
+          </article>
+          <article class="card-dado">
+            <span class="numero">R$ 12.000+</span>
+            <p>Média salarial para sênior</p>
+          </article>
+          <article class="card-dado">
+            <span class="numero">+20%</span>
+            <p>Crescimento projetado da área até 2030</p>
+          </article>
+          <article class="card-dado">
+            <span class="numero">100%</span>
+            <p>Possibilidade de trabalho remoto</p>
+          </article>
+        </div>
+
+        <!-- Áreas de atuação -->
+        <h3 class="subtitulo">Áreas de Atuação</h3>
+        <ul class="areas">
+          <li>🌐 Desenvolvimento Web (Front-end / Back-end)</li>
+          <li>📱 Aplicativos Mobile</li>
+          <li>🎮 Games</li>
+          <li>🤖 Inteligência Artificial e Data Science</li>
+          <li>☁️ Cloud e DevOps</li>
+          <li>🔒 Segurança da Informação</li>
+        </ul>
+
+        <!-- Gráfico simples em barra -->
+        <h3 class="subtitulo">Empregabilidade por setor (ilustrativo)</h3>
+        <div class="grafico">
+          <div class="barra">
+            <span class="label">Tecnologia</span>
+            <div class="bar" style="--valor: 85%"></div>
+            <span class="valor">85%</span>
+          </div>
+          <div class="barra">
+            <span class="label">Finanças</span>
+            <div class="bar" style="--valor: 70%"></div>
+            <span class="valor">70%</span>
+          </div>
+          <div class="barra">
+            <span class="label">Saúde</span>
+            <div class="bar" style="--valor: 55%"></div>
+            <span class="valor">55%</span>
+          </div>
+          <div class="barra">
+            <span class="label">Educação</span>
+            <div class="bar" style="--valor: 45%"></div>
+            <span class="valor">45%</span>
+          </div>
+        </div>
+
+        <figure class="mercado-img">
+          <img src="img/mercado.jpg" alt="Equipe de desenvolvimento trabalhando em escritório moderno" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="creditos" class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Sobre o projeto</h3>
+        <p>Projeto Interdisciplinar — Feira de Profissões.</p>
+      </div>
+      <div>
+        <h3>Créditos</h3>
+        <p><strong>Aluno(a):</strong> SEU NOME COMPLETO</p>
+        <p><strong>Turma:</strong> SUA TURMA</p>
+        <p><strong>Disciplinas:</strong> Programação / História</p>
+      </div>
+      <div>
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">Repositório no GitHub</a></li>
+          <li><a href="#home">Voltar ao topo</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">© 2025 — Feito com ❤️ para a Feira de Profissões.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
