@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Site da Feira de Profissões — Desenvolvedor(a) de Software" />
   <title>Feira de Profissões | Desenvolvedor(a) de Software</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
@@ -45,9 +45,17 @@
           </p>
           <a href="#historia" class="btn">Conheça a história →</a>
         </div>
-        <figure class="hero-img">
-          <img src="img/hero.jpg" alt="Desenvolvedor trabalhando em múltiplos monitores com código" loading="lazy" />
-        </figure>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <pre><code>&lt;<span class="tag">vida</span>&gt;
+  &lt;<span class="tag">profissao</span>&gt;Dev&lt;/<span class="tag">profissao</span>&gt;
+  &lt;<span class="tag">paixao</span>&gt;Código&lt;/<span class="tag">paixao</span>&gt;
+&lt;/<span class="tag">vida</span>&gt;</code></pre>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -59,35 +67,41 @@
 
         <div class="historia-grid">
           <article class="card-historia">
+            <span class="card-emoji">👩‍💻</span>
             <h3>1843 — A primeira programadora</h3>
             <p>Ada Lovelace escreveu o primeiro algoritmo destinado a ser processado por uma máquina (a Máquina Analítica de Babbage).</p>
           </article>
           <article class="card-historia">
+            <span class="card-emoji">🖥️</span>
             <h3>1940–1950 — Computadores e linguagens</h3>
             <p>Surgem os primeiros computadores eletrônicos (ENIAC) e linguagens como FORTRAN e COBOL, popularizando a programação.</p>
           </article>
           <article class="card-historia">
+            <span class="card-emoji">🌐</span>
             <h3>1991 — Nasce a World Wide Web</h3>
             <p>Tim Berners-Lee cria a Web, abrindo espaço para o desenvolvimento de sites e aplicações web.</p>
           </article>
           <article class="card-historia">
+            <span class="card-emoji">📱</span>
             <h3>2000s — Era mobile e open source</h3>
             <p>Smartphones, apps e comunidades open source transformam o mercado de desenvolvimento.</p>
           </article>
           <article class="card-historia">
+            <span class="card-emoji">☁️</span>
             <h3>2010s — Cloud e DevOps</h3>
             <p>Computação em nuvem e automação mudam o jeito de construir e entregar software.</p>
           </article>
           <article class="card-historia">
+            <span class="card-emoji">🤖</span>
             <h3>2020s — IA e desenvolvimento</h3>
             <p>Ferramentas de IA aceleram o trabalho do programador, exigindo novas habilidades.</p>
           </article>
         </div>
 
-        <figure class="historia-img">
-          <img src="img/historia.jpg" alt="Imagem histórica sobre evolução da computação" loading="lazy" />
-          <figcaption>Evolução da programação ao longo das décadas.</figcaption>
-        </figure>
+        <div class="timeline-decorativa" aria-hidden="true">
+          <div class="linha-tempo"></div>
+          <p class="legenda-tempo">Evolução da programação ao longo das décadas.</p>
+        </div>
       </div>
     </section>
 
@@ -100,18 +114,22 @@
         <!-- Cards de dados -->
         <div class="cards-dados">
           <article class="card-dado">
+            <span class="dado-emoji">💰</span>
             <span class="numero">R$ 5.500</span>
             <p>Salário inicial médio (júnior) no Brasil</p>
           </article>
           <article class="card-dado">
+            <span class="dado-emoji">📈</span>
             <span class="numero">R$ 12.000+</span>
             <p>Média salarial para sênior</p>
           </article>
           <article class="card-dado">
+            <span class="dado-emoji">🚀</span>
             <span class="numero">+20%</span>
             <p>Crescimento projetado da área até 2030</p>
           </article>
           <article class="card-dado">
+            <span class="dado-emoji">🌍</span>
             <span class="numero">100%</span>
             <p>Possibilidade de trabalho remoto</p>
           </article>
@@ -152,10 +170,6 @@
             <span class="valor">45%</span>
           </div>
         </div>
-
-        <figure class="mercado-img">
-          <img src="img/mercado.jpg" alt="Equipe de desenvolvimento trabalhando em escritório moderno" loading="lazy" />
-        </figure>
       </div>
     </section>
   </main>
