@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Site da Feira de Profissões — Desenvolvedor(a) de Software" />
-  <title>Feira de Profissões | Desenvolvedor(a) de Software</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Site da Feira de Profissões — Licenciatura em Matemática" />
+  <title>Feira de Profissões | Licenciatura em Matemática</title>
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
@@ -15,7 +15,7 @@
   <!-- ===== HEADER ===== -->
   <header class="site-header">
     <div class="container header-content">
-      <a href="#home" class="logo">💻 Dev<span>Profissão</span></a>
+      <a href="#home" class="logo">📐 Matemática<span>.Lic</span></a>
       <nav aria-label="Menu principal">
         <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
         <ul class="nav-list">
@@ -35,25 +35,33 @@
     <section id="home" class="hero">
       <div class="container hero-grid">
         <div class="hero-text">
-          <h1>Desenvolvedor(a) de Software</h1>
-          <p class="slogan">"Transformando ideias em linhas de código que movem o mundo."</p>
+          <h1>Licenciatura em Matemática</h1>
+          <p class="slogan">"Ensinar a linguagem do universo, um teorema por vez."</p>
           <p>
-            O desenvolvedor de software é o profissional responsável por projetar,
-            codificar, testar e manter sistemas, aplicativos e sites. Sua rotina
-            envolve resolução de problemas, trabalho em equipe e aprendizado contínuo
-            de novas tecnologias.
+            O licenciado em Matemática é o profissional formado para ensinar matemática
+            na Educação Básica (Ensino Fundamental e Médio), podendo também atuar em
+            cursos técnicos, pré-vestibulares, educação de jovens e adultos e no ensino
+            superior (com pós-graduação). Sua rotina envolve planejamento de aulas,
+            resolução de problemas, avaliações e o desafio diário de tornar o abstrato
+            compreensível para todos.
           </p>
           <a href="#historia" class="btn">Conheça a história →</a>
         </div>
+
+        <!-- Visual em CSS puro (sem imagem) -->
         <div class="hero-visual" aria-hidden="true">
-          <div class="code-window">
-            <div class="code-dots">
+          <div class="math-board">
+            <div class="board-top">
               <span></span><span></span><span></span>
             </div>
-            <pre><code>&lt;<span class="tag">vida</span>&gt;
-  &lt;<span class="tag">profissao</span>&gt;Dev&lt;/<span class="tag">profissao</span>&gt;
-  &lt;<span class="tag">paixao</span>&gt;Código&lt;/<span class="tag">paixao</span>&gt;
-&lt;/<span class="tag">vida</span>&gt;</code></pre>
+            <div class="board-body">
+              <p class="formula">a² + b² = c²</p>
+              <p class="formula-sec">∫ f(x) dx = F(x) + C</p>
+              <p class="formula-sec">∑ n = n(n+1)/2</p>
+              <div class="formula-simbolos">
+                <span>π</span><span>√</span><span>∞</span><span>Δ</span><span>θ</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -63,44 +71,44 @@
     <section id="historia" class="section historia">
       <div class="container">
         <h2>📜 Fatos Históricos</h2>
-        <p class="section-sub">Da origem da programação aos dias atuais.</p>
+        <p class="section-sub">A matemática através dos séculos — e o surgimento do ensino formal.</p>
 
         <div class="historia-grid">
           <article class="card-historia">
-            <span class="card-emoji">👩‍💻</span>
-            <h3>1843 — A primeira programadora</h3>
-            <p>Ada Lovelace escreveu o primeiro algoritmo destinado a ser processado por uma máquina (a Máquina Analítica de Babbage).</p>
+            <span class="card-emoji">🏺</span>
+            <h3>~3000 a.C. — Origens</h3>
+            <p>Egípcios e babilônios desenvolvem sistemas de numeração, contagem e geometria prática para agricultura e construção.</p>
           </article>
           <article class="card-historia">
-            <span class="card-emoji">🖥️</span>
-            <h3>1940–1950 — Computadores e linguagens</h3>
-            <p>Surgem os primeiros computadores eletrônicos (ENIAC) e linguagens como FORTRAN e COBOL, popularizando a programação.</p>
+            <span class="card-emoji">📐</span>
+            <h3>~300 a.C. — Euclides</h3>
+            <p>Euclides escreve "Os Elementos", obra que sistematiza a geometria e se torna base do ensino de matemática por mais de 2 mil anos.</p>
           </article>
           <article class="card-historia">
-            <span class="card-emoji">🌐</span>
-            <h3>1991 — Nasce a World Wide Web</h3>
-            <p>Tim Berners-Lee cria a Web, abrindo espaço para o desenvolvimento de sites e aplicações web.</p>
+            <span class="card-emoji">🔢</span>
+            <h3>Séc. IX — Al-Khwarizmi</h3>
+            <p>O matemático árabe formaliza a álgebra. Seu nome origina a palavra "algoritmo".</p>
           </article>
           <article class="card-historia">
-            <span class="card-emoji">📱</span>
-            <h3>2000s — Era mobile e open source</h3>
-            <p>Smartphones, apps e comunidades open source transformam o mercado de desenvolvimento.</p>
+            <span class="card-emoji">🎓</span>
+            <h3>Séc. XIX — Ensino formal</h3>
+            <p>Com a expansão da escola pública no Brasil e no mundo, surge a necessidade de professores especializados em matemática.</p>
           </article>
           <article class="card-historia">
-            <span class="card-emoji">☁️</span>
-            <h3>2010s — Cloud e DevOps</h3>
-            <p>Computação em nuvem e automação mudam o jeito de construir e entregar software.</p>
+            <span class="card-emoji">🏛️</span>
+            <h3>1934 — USP</h3>
+            <p>Criação da Universidade de São Paulo, com cursos de formação de professores que consolidam a licenciatura no Brasil.</p>
           </article>
           <article class="card-historia">
-            <span class="card-emoji">🤖</span>
-            <h3>2020s — IA e desenvolvimento</h3>
-            <p>Ferramentas de IA aceleram o trabalho do programador, exigindo novas habilidades.</p>
+            <span class="card-emoji">💻</span>
+            <h3>Séc. XXI — Tecnologia</h3>
+            <p>Softwares (GeoGebra, calculadoras gráficas, plataformas digitais) transformam o ensino e exigem novas competências do professor.</p>
           </article>
         </div>
 
         <div class="timeline-decorativa" aria-hidden="true">
           <div class="linha-tempo"></div>
-          <p class="legenda-tempo">Evolução da programação ao longo das décadas.</p>
+          <p class="legenda-tempo">Da antiguidade ao ensino digital.</p>
         </div>
       </div>
     </section>
@@ -109,65 +117,65 @@
     <section id="mercado" class="section mercado">
       <div class="container">
         <h2>📊 Panorama Atual e Mercado</h2>
-        <p class="section-sub">Dados, salários e áreas de atuação.</p>
+        <p class="section-sub">Salários, áreas de atuação e empregabilidade.</p>
 
         <!-- Cards de dados -->
         <div class="cards-dados">
           <article class="card-dado">
             <span class="dado-emoji">💰</span>
-            <span class="numero">R$ 5.500</span>
-            <p>Salário inicial médio (júnior) no Brasil</p>
+            <span class="numero">R$ 3.500</span>
+            <p>Salário inicial médio (professor iniciante)</p>
           </article>
           <article class="card-dado">
             <span class="dado-emoji">📈</span>
-            <span class="numero">R$ 12.000+</span>
-            <p>Média salarial para sênior</p>
+            <span class="numero">R$ 7.000+</span>
+            <p>Média para professor com pós-graduação e tempo de carreira</p>
           </article>
           <article class="card-dado">
-            <span class="dado-emoji">🚀</span>
-            <span class="numero">+20%</span>
-            <p>Crescimento projetado da área até 2030</p>
+            <span class="dado-emoji">🎯</span>
+            <span class="numero">Alta</span>
+            <p>Demanda por professores de exatas no Brasil</p>
           </article>
           <article class="card-dado">
-            <span class="dado-emoji">🌍</span>
-            <span class="numero">100%</span>
-            <p>Possibilidade de trabalho remoto</p>
+            <span class="dado-emoji">🏫</span>
+            <span class="numero">Brasil</span>
+            <p>Falta crônica de professores de Matemática nas redes públicas</p>
           </article>
         </div>
 
         <!-- Áreas de atuação -->
         <h3 class="subtitulo">Áreas de Atuação</h3>
         <ul class="areas">
-          <li>🌐 Desenvolvimento Web (Front-end / Back-end)</li>
-          <li>📱 Aplicativos Mobile</li>
-          <li>🎮 Games</li>
-          <li>🤖 Inteligência Artificial e Data Science</li>
-          <li>☁️ Cloud e DevOps</li>
-          <li>🔒 Segurança da Informação</li>
+          <li>🏫 Ensino Fundamental e Médio</li>
+          <li>🎓 Ensino Superior (com pós-graduação)</li>
+          <li>📚 Cursos pré-vestibulares e preparatórios</li>
+          <li>✏️ Educação de Jovens e Adultos (EJA)</li>
+          <li>💻 Ensino a distância e plataformas digitais</li>
+          <li>📊 Consultoria educacional e produção de materiais</li>
         </ul>
 
         <!-- Gráfico simples em barra -->
         <h3 class="subtitulo">Empregabilidade por setor (ilustrativo)</h3>
         <div class="grafico">
           <div class="barra">
-            <span class="label">Tecnologia</span>
-            <div class="bar" style="--valor: 85%"></div>
-            <span class="valor">85%</span>
+            <span class="label">Educação Básica</span>
+            <div class="bar" style="--valor: 90%"></div>
+            <span class="valor">90%</span>
           </div>
           <div class="barra">
-            <span class="label">Finanças</span>
-            <div class="bar" style="--valor: 70%"></div>
-            <span class="valor">70%</span>
+            <span class="label">Pré-vestibular</span>
+            <div class="bar" style="--valor: 65%"></div>
+            <span class="valor">65%</span>
           </div>
           <div class="barra">
-            <span class="label">Saúde</span>
-            <div class="bar" style="--valor: 55%"></div>
-            <span class="valor">55%</span>
-          </div>
-          <div class="barra">
-            <span class="label">Educação</span>
+            <span class="label">Ensino Superior</span>
             <div class="bar" style="--valor: 45%"></div>
             <span class="valor">45%</span>
+          </div>
+          <div class="barra">
+            <span class="label">EdTechs / Online</span>
+            <div class="bar" style="--valor: 55%"></div>
+            <span class="valor">55%</span>
           </div>
         </div>
       </div>
@@ -180,12 +188,13 @@
       <div>
         <h3>Sobre o projeto</h3>
         <p>Projeto Interdisciplinar — Feira de Profissões.</p>
+        <p>Profissão sorteada: Licenciatura em Matemática.</p>
       </div>
       <div>
         <h3>Créditos</h3>
-        <p><strong>Aluno(a):</strong> Eloisa Ribeiro da Rocha</p>
-        <p><strong>Turma:</strong> 2C</p>
-        <p><strong>Disciplinas:</strong> Programação</p>
+        <p><strong>Aluno(a):</strong> SEU NOME COMPLETO</p>
+        <p><strong>Turma:</strong> SUA TURMA</p>
+        <p><strong>Disciplinas:</strong> Matemática / História / Programação</p>
       </div>
       <div>
         <h3>Links</h3>
